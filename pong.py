@@ -116,7 +116,7 @@ while True:
             else:
                 break
         else:
-            if input("Player 1 Wins! Press any key to restart (ctrl z if you're done):"):
+            if input("Player 2 Wins! Press any key to restart (ctrl z if you're done):"):
                 player1 = Paddle()
                 player2 = Paddle()
                 ball = Ball()
